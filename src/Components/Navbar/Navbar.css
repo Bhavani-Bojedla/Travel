@@ -1,4 +1,4 @@
-/* @tailwind base;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -8,7 +8,7 @@
         @apply h-10 bg-cover w-28  bg-logo
     }
     .nav-button {
-        @apply text-white
+        @apply ml-8 text-lg h-0 font-medium text-white cursor-pointer hover:text-blue-950 transition duration-300
     }
     
-} */
+}
