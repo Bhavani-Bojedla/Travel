@@ -1,0 +1,14 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .nav-left{
+        @apply h-10 bg-cover w-28  bg-logo
+    }
+    .nav-button {
+        @apply text-white
+    }
+    
+} */
