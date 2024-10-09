@@ -17,7 +17,7 @@ export default function Home() {
         <div className="flex items-center justify-center font-bold text-white lg:mt-8 md:mt-0 md:ml-8 lg:ml-0 phone:ml-0 md:text-4xl phone:text-xl lg:text-6xl phone:text-3xl">
           UNITED TOURS INDIA
         </div>
-        <div className="font-semibold text-white md:text-xs  lg:mt-1 md:mt-1 phone:text-small lg:ml-140 md:ml-[29rem] phone:ml-[13.2rem] lg:text-lg">
+        <div className="font-semibold text-white md:text-xs  lg:mt-8 md:mt-1 phone:text-small lg:ml-140 md:ml-[29rem] phone:ml-[13.2rem] lg:text-lg">
           Explore India With Us
         </div>
       </div>
