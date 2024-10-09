@@ -5,10 +5,10 @@
 
 @layer components {
     .nav-left{
-        @apply h-10 bg-cover w-28  bg-logo
+        @apply lg:h-14 md:h-[2.4rem] phone:h-[1.6rem] phone:w-16 bg-cover lg:w-36 md:w-24   cursor-pointer
     }
     .nav-button {
-        @apply ml-8 text-lg h-0 font-medium text-white cursor-pointer hover:text-blue-950 transition duration-300
+        @apply lg:ml-8 md:ml-5 lg:text-lg md:text-sm phone:text-xs font-medium text-white cursor-pointer hover:text-blue-950 transition duration-300
     }
     
 }
