@@ -94,7 +94,6 @@
 
 
 import React from "react";
-import "./Activity.css";
 
 import image_1 from '../../assets/Images/ActivityPic1.png';
 import image_2 from '../../assets/Images/ActivityPic2.png';
