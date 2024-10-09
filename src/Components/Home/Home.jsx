@@ -22,8 +22,8 @@ export default function Home() {
         </div>
       </div>
       <Activity />
-      {/* <About />
-      <Destinations /> */}
+      <About />
+      <Destinations />
     </>
   );
 }
