@@ -4,13 +4,13 @@ import { MdArrowRightAlt } from "react-icons/md";
 export default function Places() {
   return (
     <div className="py-10 bg-sky-50">
-      <div className="flex items-center justify-between mx-32 header">
+      <div className="flex items-center justify-between lg:mx-32 md:mx-12 phone:mx-3 header">
         <div className="w-1/2">
-          <div className="font-bold text-sky-500">Our Places</div>
-          <div className="text-4xl font-bold">Our Popular Packages</div>
+          <div className="text-base font-bold text-sky-500 phone:text-xs lg:text-base md:text-base">Our Places</div>
+          <div className="font-bold md:text-3xl lg:text-4xl phone:text-lg">Our Popular Packages</div>
         </div>
-        <div className="w-1/3">
-        <div className="flex justify-between w-full font-bold">
+        <div className="lg:w-1/3 md:w-1/3 phone:w-1/2">
+        <div className="flex justify-between w-full font-bold md:text-base lg:text-base phone:text-xs">
           <div>Trending</div>
           <div>Duration</div>
           <div>Types</div>
@@ -18,7 +18,7 @@ export default function Places() {
         </div>
       </div>
 
-      <div className="flex flex-wrap w-full pt-16 mx-auto px-28 justify-evenly">
+      <div className="flex flex-wrap w-full pt-16 mx-auto md:gap-y-5 phone:gap-y-5 lg:px-28 md:px-0 justify-evenly">
         <div className="bg-white rounded-xl w-[19.5rem] shadow-md box">
           <div className="w-[19.5rem] border rounded-t-xl  border-gray-900 h-60">
             <div className="flex flex-col gap-y-40 img-text">

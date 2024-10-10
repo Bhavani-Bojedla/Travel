@@ -17,10 +17,11 @@ import slide_image_7 from "../../assets/Images/image-7.jpeg";
 export default function Destinations() {
   return (
     <>
-      <div className="flex flex-wrap items-center gap-3 px-5 pt-5 lg:hidden md:hidden bg-sky-50">
-      <h1 className="pb-5 mx-auto text-2xl font-bold text-center">
+    <h1 className="pb-5 mx-auto text-2xl font-bold text-center bg-sky-50 lg:hidden md:hidden">
           Popular Destinations
         </h1>
+      <div className="flex flex-wrap items-center justify-center gap-3 pt-5 lg:hidden md:hidden bg-sky-50">
+      
         {[
           slide_image_1,
           slide_image_2,
