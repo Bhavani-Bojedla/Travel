@@ -3,11 +3,12 @@ import Navbar from "../Navbar/Navbar";
 import Activity from "../Page1/Activity";
 import About from "../Page 2/About";
 import Destinations from "../Page 3/Destinations";
+import Places from "../Page 4/Places";
 
 export default function Home() {
   return (
     <>
-      <div className="w-full  lg:h-[125vh] md:h-[73.2vh] phone:h-[30.5vh] lg:bg-cover lg: md:bg-contain phone:bg-cover bg-home ">
+      <div className="w-full  lg:h-[125vh] md:h-[73.2vh] phone:h-[30.5vh] lg:bg-cover lg: md:bg-cover phone:bg-cover bg-home ">
         <div className="w-full">
           <Navbar />
         </div>
@@ -24,6 +25,7 @@ export default function Home() {
       <Activity />
       <About />
       <Destinations />
+      <Places/>
     </>
   );
 }
