@@ -14,7 +14,7 @@ export default function About() {
         Plan Your Dream Holiday With United Tours India
       </div>
       </div>
-    <div className="items-center w-full pb-5 mx-auto lg:flex md:flex lg:flex-row md:flex-row phone:flex-col-reverse phone:flex md:pt-5 phone:pt-3 lg:pt-10 lg:px-36 phone:px-6 md:px-20 lg:pl-44 bg-sky-50">
+    <div className="items-center justify-between w-full pb-5 mx-auto lg:flex md:flex lg:flex-row md:flex-row phone:flex-col-reverse phone:flex md:pt-5 phone:pt-3 lg:pt-10 lg:px-36 phone:px-6 md:px-20 lg:pl-44 bg-sky-50">
       <div className="lg:w-120 md:w-96 page2-left ">
         <div className="font-bold text-sky-500 phone:hidden lg:block md:block">About Us</div>
 
