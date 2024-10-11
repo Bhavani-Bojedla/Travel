@@ -4,6 +4,7 @@ import Activity from "../Page1/Activity";
 import About from "../Page 2/About";
 import Destinations from "../Page 3/Destinations";
 import Places from "../Page 4/Places";
+import Experience from "../Page 5/Experience";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <About />
       <Destinations />
       <Places/>
+      <Experience/>
     </>
   );
 }

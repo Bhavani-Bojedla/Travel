@@ -28,6 +28,9 @@ export default {
       screens: {
         'phone': '10px'},
     },
+    // colors: {
+    //   'col-1':'#0F2341'
+    // }
   },
   plugins: [],
 }
