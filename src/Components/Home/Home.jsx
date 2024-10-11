@@ -7,6 +7,7 @@ import Places from "../Page 4/Places";
 import Experience from "../Page 5/Experience";
 import Process from "../Page 6/Process";
 import Choose from "../Page 7/Choose";
+import Footer from "../Page 9/Footer";
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
       <Experience/>
       <Process/>
       <Choose/>
+      <Footer/>
     </>
   );
 }
