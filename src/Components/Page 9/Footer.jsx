@@ -50,7 +50,7 @@ export default function Footer() {
       <div className="flex w-full lg:px-10 md:pl-28 ">
         <div className="lg:w-1/3 md:w-1/3"></div>
         <div className="items-end justify-between lg:flex-row lg:flex md:flex md:flex-col md:justify-end">
-          <div className="lg:w-[30rem] md:w-[27rem] phone:w-[20rem] phone:px-2">
+          <div className="lg:w-[30rem] md:w-[27rem] phone:w-[22rem] phone:px-2">
             <div className="mb-5 mt-7">
               <img
                 src={image_1} // Add the logo URL here
