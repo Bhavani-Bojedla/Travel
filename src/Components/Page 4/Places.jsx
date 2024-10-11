@@ -1,5 +1,9 @@
 import React from "react";
 import { MdArrowRightAlt } from "react-icons/md";
+import image_1 from "../../assets/Images/image-1.jpeg";
+import image_2 from "../../assets/Images/image-2.jpeg";
+import image_3 from "../../assets/Images/image-3.jpeg";
+import image_4 from "../../assets/Images/image-4.jpeg";
 
 export default function Places() {
   return (
@@ -20,13 +24,14 @@ export default function Places() {
 
       <div className="flex flex-wrap w-full pt-16 mx-auto md:gap-y-5 phone:gap-y-5 lg:px-28 md:px-0 justify-evenly">
         <div className="bg-white rounded-xl w-[19.5rem] shadow-md box">
-          <div className="w-[19.5rem] border rounded-t-xl  border-gray-900 h-60">
-            <div className="flex flex-col gap-y-40 img-text">
+        <div className="w-[19.5rem] border rounded-t-xl h-60">
+            <img src={image_1} className="w-[19.5rem] rounded-t-xl  h-60 object-cover"></img>
+            <div className="relative flex-col font-semibold text-white transform -translate-y-56 img-text">
               <div className="text-center">
                 Luxurious Jodhpur Jaisalmer Tour
               </div>
-              <div>
-                <hr className="ml-2 w-72" />
+              <div className="mt-[9.5rem] mx-4">
+                <hr className="w-64 ml-3" />
                 <div className="flex justify-between px-2">
                   <div>
                     <div>5 DAY 4 NIGHT</div>
@@ -53,13 +58,14 @@ export default function Places() {
 
 
         <div className="bg-white rounded-xl w-[19.5rem] shadow-md box">
-          <div className="w-[19.5rem] border rounded-t-xl  border-gray-900 h-60">
-            <div className="flex flex-col gap-y-40 img-text">
+          <div className="w-[19.5rem] border rounded-t-xl h-60">
+            <img src={image_2} className="w-[19.5rem] rounded-t-xl  h-60 object-cover"></img>
+            <div className="relative flex-col font-semibold text-white transform -translate-y-56 img-text">
               <div className="text-center">
                 Luxurious Jodhpur Jaisalmer Tour
               </div>
-              <div>
-                <hr className="ml-2 w-72" />
+              <div className="mt-[9.5rem] mx-4">
+                <hr className="w-64 ml-3" />
                 <div className="flex justify-between px-2">
                   <div>
                     <div>5 DAY 4 NIGHT</div>
@@ -85,13 +91,14 @@ export default function Places() {
 
 
         <div className="bg-white rounded-xl w-[19.5rem] shadow-md box">
-          <div className="w-[19.5rem] border rounded-t-xl  border-gray-900 h-60">
-            <div className="flex flex-col gap-y-40 img-text">
+        <div className="w-[19.5rem] border rounded-t-xl h-60">
+            <img src={image_3} className="w-[19.5rem] rounded-t-xl  h-60 object-cover"></img>
+            <div className="relative flex-col font-semibold text-white transform -translate-y-56 img-text">
               <div className="text-center">
                 Luxurious Jodhpur Jaisalmer Tour
               </div>
-              <div>
-                <hr className="ml-2 w-72" />
+              <div className="mt-[9.5rem] mx-4">
+                <hr className="w-64 ml-3" />
                 <div className="flex justify-between px-2">
                   <div>
                     <div>5 DAY 4 NIGHT</div>
@@ -116,13 +123,14 @@ export default function Places() {
 
 
         <div className="bg-white rounded-xl w-[19.5rem] shadow-md box">
-          <div className="w-[19.5rem] border rounded-t-xl  border-gray-900 h-60">
-            <div className="flex flex-col gap-y-40 img-text">
+        <div className="w-[19.5rem] border rounded-t-xl h-60">
+            <img src={image_4} className="w-[19.5rem] rounded-t-xl  h-60 object-cover"></img>
+            <div className="relative flex-col font-semibold text-white transform -translate-y-56 img-text">
               <div className="text-center">
                 Luxurious Jodhpur Jaisalmer Tour
               </div>
-              <div>
-                <hr className="ml-2 w-72" />
+              <div className="mt-[9.5rem] mx-4">
+                <hr className="w-64 ml-3" />
                 <div className="flex justify-between px-2">
                   <div>
                     <div>5 DAY 4 NIGHT</div>

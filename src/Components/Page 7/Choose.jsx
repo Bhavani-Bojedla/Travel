@@ -97,7 +97,7 @@ export default function Choose() {
           ></img>
 
           <div className="flex flex-col items-center justify-between w-full divide-y-2 divide-gray-400 ml-7 divide-dashed">
-            <div className="flex items-center justify-between w-full py-4">
+            <div className="flex items-center w-full py-4 justify-evenly">
               <div>
                 <img src={image_2} className="w-16 h-16" />
               </div>
@@ -127,7 +127,7 @@ export default function Choose() {
               </div>
             </div>
 
-            <div className="flex items-center w-full py-4">
+            <div className="flex items-center w-full py-4 justify-evenly">
               <div>
                 <img src={image_4} className="w-16 h-16" />
               </div>
