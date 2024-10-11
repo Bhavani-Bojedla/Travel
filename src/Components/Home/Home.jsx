@@ -5,6 +5,8 @@ import About from "../Page 2/About";
 import Destinations from "../Page 3/Destinations";
 import Places from "../Page 4/Places";
 import Experience from "../Page 5/Experience";
+import Process from "../Page 6/Process";
+import Choose from "../Page 7/Choose";
 
 export default function Home() {
   return (
@@ -28,6 +30,8 @@ export default function Home() {
       <Destinations />
       <Places/>
       <Experience/>
+      <Process/>
+      <Choose/>
     </>
   );
 }

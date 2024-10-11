@@ -35,21 +35,6 @@ export default function Experience() {
           <img src={image_7} className="rounded-lg lg:h-[14rem] lg:w-96 md:h-[14rem] phone:mb-10 lg:mb-0 md:mb-0  md:w-96 phone:h-40 phone:w-48"></img>
           <img src={image_7} className="rounded-lg lg:h-[14rem] lg:w-96  md:h-[14rem] phone:mb-12 lg:mb-0 md:mb-0 md:w-96 phone:h-40 phone:w-48"></img>
         </div>
-        {/* <div className="py-5 text-center text-white rounded-lg md:px-3 phone:px-1 lg:px-3 bg-blue-950 lg:w-97 md:w-97 phone:w-40 box-3">
-          <div className="text-3xl font-semibold">Pushkar Fair Visit</div>
-          <div className="mt-8 md:text-justify phone:text-start lg:text-justify">
-            The Pushkar Fair brings together tradition, culture, and excitement
-            in one location. Picture yourself walking through an enormous
-            fairground packed with thousands of camels adorned in the brightest
-            colors and decorative gear you've ever laid eyes on. Camels aren't
-            the only main attraction here, the fair teems with folk music, dance
-            shows, carnival rides, and colorful booths selling everything from
-            jewelry to handicrafts. This shows that Rajasthan is at its best
-            rich, lively, and brimming with energy. Hence, from camel races to
-            cultural parades, you'll get to watch a spirit and thrill that's
-            challenging to describe.
-          </div>
-        </div> */}
          <div className="py-5 text-center text-white rounded-lg md:px-3 phone:px-2 lg:px-3 bg-blue-950 lg:w-97 md:w-97 phone:w-40 box-3">
           <div className="font-semibold md:text-3xl phone:text-lg lg:text-3xl">Pushkar Fair Visit</div>
           <div className="text-justify md:mt-8 phone:mt-4 lg:mt-8 phone:text-xs lg:text-base md:text-base ">
