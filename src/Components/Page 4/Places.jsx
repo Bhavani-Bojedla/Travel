@@ -49,7 +49,7 @@ export default function Places() {
               Delhi -&gt;
             </div>
             <button className="flex items-center justify-center w-40 px-4 py-2 mx-auto my-2 text-white rounded bg-sky-950 ">
-              <span>View More</span>
+              <span>Book Now</span>
               <MdArrowRightAlt className="ml-2 transform scale-x-150" />
             </button>
           </div>
@@ -83,7 +83,7 @@ export default function Places() {
               Jaipur -&gt;
             </div>
             <button className="flex items-center justify-center w-40 px-4 py-2 mx-auto my-2 text-white rounded mt-7 bg-sky-950 ">
-              <span>View More</span>
+              <span>Book Now</span>
               <MdArrowRightAlt className="ml-2 transform scale-x-150" />
             </button>
           </div>
@@ -115,7 +115,7 @@ export default function Places() {
               Delhi -&gt; Agra -&gt; Delhi -&gt; 
             </div>
             <button className="flex items-center justify-center w-40 px-4 py-2 mx-auto my-2 text-white rounded mt-7 bg-sky-950 ">
-              <span>View More</span>
+              <span>Book Now</span>
               <MdArrowRightAlt className="ml-2 transform scale-x-150" />
             </button>
           </div>
@@ -148,7 +148,7 @@ export default function Places() {
               Delhi -&gt;
             </div>
             <button className="flex items-center justify-center w-40 px-4 py-2 mx-auto my-2 mt-5 text-white rounded bg-sky-950 ">
-              <span>View More</span>
+              <span>Book Now</span>
               <MdArrowRightAlt className="ml-2 transform scale-x-150" />
             </button>
           </div>

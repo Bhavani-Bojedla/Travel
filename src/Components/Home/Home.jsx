@@ -12,7 +12,7 @@ import Footer from "../Page 9/Footer";
 export default function Home() {
   return (
     <>
-      <div className="w-full  lg:h-[125vh] md:h-[73.2vh] phone:h-[29vh] lg:bg-cover lg: md:bg-contain bg-no-repeat phone:bg-contain bg-home ">
+      <div className="w-full  lg:h-[125vh] md:h-[73.2vh] phone:h-[28vh] lg:bg-cover lg: md:bg-contain bg-no-repeat phone:bg-contain bg-home ">
         <div className="w-full">
           <Navbar />
         </div>
