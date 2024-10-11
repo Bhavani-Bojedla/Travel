@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className=" lg:pl-28 md:pl-12 phone:pl-3">
         <div className="nav-left bg-logo"></div>
       </div>
-      <div className="lg:hidden md:hidden"> 
+      <div className="lg:hidden md:hidden">
         <HiMenuAlt3
           className="text-3xl text-white cursor-pointer"
           onClick={toggleSidebar}
@@ -36,28 +36,58 @@ export default function Navbar() {
         <FaUser className="text-white duration-300 cursor-pointer hover:text-blue-950" />
       </div>
 
-       {/* Sidebar for Mobile */}
-       <div
-        className={`fixed inset-0 bg-black bg-opacity-50 z-50 transition-transform duration-300 ${
-          isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+      {/* Sidebar for Mobile */}
+      <div
+        className={`fixed inset-0 bg-black bg-opacity-0 transition-transform duration-300 ${
+          isSidebarOpen ? "translate-x-32" : "translate-x-full"
         } lg:hidden`}
       >
-        <div className="w-64 h-full pl-2 bg-white shadow-md">
+        <div className="pt-2 pb-3 mx-auto mt-4 ml-8 text-center rounded-lg shadow-md bg-blue-50 w-36 h-68">
           {/* Close Button */}
           <AiOutlineClose
-            className="mb-5 text-2xl text-black cursor-pointer"
+            className="ml-24 text-2xl text-black cursor-pointer "
             onClick={toggleSidebar}
           />
-           <div className="flex flex-col space-y-4">
-            <div className="" onClick={toggleSidebar}>Cart</div>
-            <div className="" onClick={toggleSidebar}>Checkout</div>
-            <div className="text-blue-950 " onClick={toggleSidebar}>Home</div>
-            <div className="" onClick={toggleSidebar}>My Account</div>
-            <div className="" onClick={toggleSidebar}>Page</div>
-            <div className="" onClick={toggleSidebar}>Shop</div>
+          <div className="flex flex-col w-full space-y-2 font-semibold ">
+          <div
+              className="px-4 py-2 transition-colors rounded cursor-pointer text-blue-950 hover:bg-gray-200"
+              onClick={toggleSidebar}
+            >
+              Home
+            </div>
+            <div
+              className="px-4 py-2 transition-colors rounded cursor-pointer hover:bg-gray-200"
+              onClick={toggleSidebar}
+            >
+              Cart
+            </div>
+            <div
+              className="px-4 py-2 transition-colors rounded cursor-pointer hover:bg-gray-200"
+              onClick={toggleSidebar}
+            >
+              Checkout
+            </div>
+            <div
+              className="px-4 py-2 transition-colors rounded cursor-pointer hover:bg-gray-200"
+              onClick={toggleSidebar}
+            >
+              My Account
+            </div>
+            <div
+              className="px-4 py-2 transition-colors rounded cursor-pointer hover:bg-gray-200"
+              onClick={toggleSidebar}
+            >
+              Page
+            </div>
+            <div
+              className="px-4 py-2 transition-colors rounded cursor-pointer hover:bg-gray-200"
+              onClick={toggleSidebar}
+            >
+              Shop
+            </div>
           </div>
-          </div>
-          </div>
+        </div>
+      </div>
     </div>
   );
 }
