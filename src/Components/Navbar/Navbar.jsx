@@ -38,11 +38,11 @@ export default function Navbar() {
 
       {/* Sidebar for Mobile */}
       <div
-        className={`fixed inset-0 bg-black bg-opacity-0 transition-transform duration-300 ${
-          isSidebarOpen ? "translate-x-32" : "translate-x-full"
+        className={`absolute inset-0 bg-black bg-opacity-0  ${
+          isSidebarOpen ? "translate-x-32 " : "-translate-x-full"
         } lg:hidden`}
       >
-        <div className="pt-2 pb-3 mx-auto mt-4 ml-8 text-center rounded-lg shadow-md bg-blue-50 w-36 h-68">
+        <div className="pt-2 pb-3 mx-auto mt-4 ml-16 text-center rounded-lg shadow-md bg-blue-50 w-36 h-68">
           {/* Close Button */}
           <AiOutlineClose
             className="ml-24 text-2xl text-black cursor-pointer "
